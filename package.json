@@ -1,0 +1,51 @@
+{
+  "name": "newhandlers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "nodemon src/index.ts",
+    "ts:build": "rm -rf ./dist && tsc"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/better-queue": "^3.8.3",
+    "@types/mongoose": "^5.11.97",
+    "@types/puppeteer": "^5.4.6",
+    "@types/restify-errors": "^4.3.4",
+    "@types/url-parse": "^1.4.8",
+    "@types/uuid": "^8.3.4",
+    "aws-sdk": "^2.1198.0",
+    "axios": "^0.27.2",
+    "better-queue": "^3.8.10",
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.5",
+    "dotenv": "^16.0.1",
+    "esbuild": "^0.15.5",
+    "joi": "^17.6.0",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0",
+    "query-string": "^7.1.1",
+    "restify": "^8.6.1",
+    "restify-cors-middleware2": "^2.1.2",
+    "restify-errors": "^8.0.2",
+    "restify-router": "^0.6.2",
+    "schm": "^0.4.1",
+    "url-parse": "^1.5.10",
+    "uuid": "^8.3.2",
+    "uuid4": "^2.0.3"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/morgan": "^1.9.3",
+    "@types/restify": "^8.5.5",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}

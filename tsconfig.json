@@ -1,0 +1,24 @@
+{
+    "schema": "https://json.chemastore.org/tsconfig",
+    "display": "Node 16",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src/",
+        "lib": ["es2021", "dom"],
+        "module": "commonjs",
+        "allowJs": true,
+        //"strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "useUnknownInCatchVariables": false,
+        "noImplicitAny": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
